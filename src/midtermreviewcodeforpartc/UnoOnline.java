@@ -16,7 +16,7 @@ import java.util.Scanner;
  */
 public class UnoOnline 
 {
-    private User users[] = new User[100];//room for 100 online players!
+    private final User users[] = new User[100];//room for 100 online players!
      
     /**
      * Main method with call to private run method, to encapsulate our
